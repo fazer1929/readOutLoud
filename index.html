@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read Out Loud</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="container">
+        <h1 class="main-heading">Read Out Loud</h1>
+        <button id="toggle-btn" class="btn">Custom Input</button>
+        <div id="textbox-modal" class="modal-textbox">
+            <div class="close-btn">X</div>
+            <label for="voices">Select The Voice</label>
+            <select name="voices" id="voice-options"></select>
+            <textarea name="input-text" id="text" cols="30" rows="10" placeholder="Enter Custom Text"></textarea>
+            <button id="readout" class="btn">Read</button>
+        </div>
+    </div>
+        <main></main>
+
+    <script src="app.js"></script>
+</body>
+</html>
